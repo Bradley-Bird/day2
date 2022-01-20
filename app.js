@@ -1,5 +1,6 @@
 // import functions
-
+import { people } from './data.js';
+console.log(people, 'people');
 // grab DOM elements
 
 // set event listeners 
