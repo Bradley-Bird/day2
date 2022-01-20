@@ -1,31 +1,31 @@
 // import functions
-import { people } from "./data.js";
-console.log(people, "people");
+import { people } from './data.js';
+console.log(people, 'people');
 // grab DOM elements
-const selectEl = document.getElementById("name");
-const nameEl = document.querySelector(".name");
-const ageEl = document.querySelector(".age");
-const bioEl = document.querySelector(".bio");
-const hobbyTEl = document.querySelector(".hobbyTitle");
-const hobbiesEl = document.querySelector(".hobbies");
-const contain = document.querySelector(".contain");
+const selectEl = document.getElementById('name');
+const nameEl = document.querySelector('.name');
+const ageEl = document.querySelector('.age');
+const bioEl = document.querySelector('.bio');
+const hobbyTEl = document.querySelector('.hobbyTitle');
+const hobbiesEl = document.querySelector('.hobbies');
+const contain = document.querySelector('.contain');
 
-console.log("elements", selectEl, nameEl, ageEl, bioEl, hobbiesEl, contain);
+console.log('elements', selectEl, nameEl, ageEl, bioEl, hobbiesEl, contain);
 
-selectEl.addEventListener("change", (e) => {
-    hobbiesEl.innerHTML = '';
-    const selected = e.target.value;
-    // selectEl.addEventListener('change'(event)=> {const selected = e.target.value;})
-    // console.log("user click");
-    if (selected === 'one'){
-        renderPerson(0);
-    }
-    else if (selected === 'two'){
-        renderPerson(1);
-    }
-    else{
-        renderPerson(2);
-    }
+selectEl.addEventListener('change', (e) => {
+  hobbiesEl.innerHTML = '';
+  const selected = e.target.value;
+  // selectEl.addEventListener('change'(event)=> {const selected = e.target.value;})
+  // console.log("user click");
+  if (selected === 'one') {
+    renderPerson(0);
+  }
+  else if (selected === 'two') {
+    renderPerson(1);
+  }
+  else {
+    renderPerson(2);
+  }
 });
 
 function renderPerson(index) {
