@@ -13,33 +13,33 @@ const contain = document.querySelector('.contain');
 console.log('elements', selectEl, nameEl, ageEl, bioEl, hobbiesEl, contain);
 
 selectEl.addEventListener('change', (e) => {
-  hobbiesEl.innerHTML = '';
-  const selected = e.target.value;
-  // selectEl.addEventListener('change'(event)=> {const selected = e.target.value;})
-  // console.log("user click");
-  if (selected === 'one') {
-    renderPerson(0);
-  }
-  else if (selected === 'two') {
-    renderPerson(1);
-  }
-  else {
-    renderPerson(2);
-  }
+    hobbiesEl.innerHTML = '';
+    const selected = e.target.value;
+    // selectEl.addEventListener('change'(event)=> {const selected = e.target.value;})
+    // console.log("user click");
+    if (selected === 'one') {
+        renderPerson(0);
+    }
+    else if (selected === 'two') {
+        renderPerson(1);
+    }
+    else {
+        renderPerson(2);
+    }
 });
 
 function renderPerson(index) {
-  contain.classList.add(`${people[index].name}`);
-  nameEl.textContent = 'Name: ' + people[index].name;
-  ageEl.textContent = 'Age: ' + people[index].age;
-  bioEl.textContent = 'Bio: ' + people[index].bio;
-  hobbyTEl.textContent = 'My Hobbies Are:';
+    contain.classList.add(`${people[index].name}`);
+    nameEl.textContent = 'Name: ' + people[index].name;
+    ageEl.textContent = 'Age: ' + people[index].age;
+    bioEl.textContent = 'Bio: ' + people[index].bio;
+    hobbyTEl.textContent = 'My Hobbies Are:';
 
-  for (let hobby of people[index].hobbies) {
-    const li = document.createElement('li');
-    li.textContent = hobby;
-    hobbiesEl.appendChild(li);
-  }
+    for (let hobby of people[index].hobbies) {
+        const li = document.createElement('li');
+        li.textContent = hobby;
+        hobbiesEl.appendChild(li);
+    }
 }
 
 
