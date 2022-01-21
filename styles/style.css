@@ -77,9 +77,6 @@ p {
     margin: var(--gutter);
 }
 
-.contain {
-    background-color: whitesmoke;
-}
 
 .Bradley {
     background-color: aqua;
@@ -89,6 +86,7 @@ p {
 .Mary {
     background-color:darkblue;
     font-family:fantasy;
+    color: whitesmoke;
 }
 
 .Kamie {
