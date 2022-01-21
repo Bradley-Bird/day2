@@ -81,20 +81,41 @@ p {
 .Bradley {
     background-color: aqua;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px 10px 10px 10px;
+    margin-top: 10px;
 }
 
 .Mary {
     background-color:darkblue;
     font-family:fantasy;
     color: whitesmoke;
+    padding: 0px 10px 10px 10px;
+    margin-top: 10px;
+
+
 }
 
 .Kamie {
     background-color:darkmagenta;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: lightgray;
+    padding: 0px 10px 10px 10px;
+    margin-top: 10px;
+
+
 }
 
+.name {
+    font-size: larger;
+    text-align: center;
+}
+.pronouns {
+    text-align: center;
+}
 
+.age {
+    text-align: center;
+}
 footer {
     position: fixed;
     width: 100%;
