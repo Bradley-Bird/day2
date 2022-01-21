@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 // import functions
 import { people } from './data.js';
 console.log(people, 'people');
@@ -7,7 +6,7 @@ const selectEl = document.getElementById('name');
 const nameEl = document.querySelector('.name');
 const ageEl = document.querySelector('.age');
 const bioEl = document.querySelector('.bio');
-const favoriteAnimalsEl = document.querySelector('.favoriteAnimals');
+const favoriteAnimalsEl = document.querySelector('.favoriteAnimals')
 const hobbyTEl = document.querySelector('.hobbyTitle');
 const hobbiesEl = document.querySelector('.hobbies');
 const contain = document.querySelector('.contain');
