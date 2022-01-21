@@ -77,6 +77,26 @@ p {
     margin: var(--gutter);
 }
 
+.contain {
+    background-color: whitesmoke;
+}
+
+.Bradley {
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Mary {
+    background-color:darkblue;
+    font-family:fantasy;
+}
+
+.Kamie {
+    background-color:darkmagenta;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
 footer {
     position: fixed;
     width: 100%;

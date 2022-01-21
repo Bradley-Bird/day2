@@ -37,6 +37,10 @@ main {
     overflow-y: auto;
 }
 
+id {
+    background-color: aqua;
+}
+
 
 footer {
     background-color: var(--chrome-background-opaque);
